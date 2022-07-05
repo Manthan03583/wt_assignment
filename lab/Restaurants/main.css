@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url("images/pexels-pixabay-260922.jpg");
+    background-repeat: no-repeat;
+    background-image: cover;
+    /* color: white; */
+}
+p{
+    background-color: white;
+}
+
+/* #head1{
+    font-weight: bold;
+    font-size: 50px;
+    padding: auto;
+    color: white;
+    /* text-decoration: underline; */
+/* }
+#head2{
+    font-size: 10px;
+} */
+.head{
+    color: #fff;
+}
+.heading{
+    color: aliceblue;
+}
+
+.container{
+    color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 12px 12px;
+    width: 25%;
+}

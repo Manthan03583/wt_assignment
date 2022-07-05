@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Book a Ticket</title>
+  </head>
+  <body>
+    <form>
+      <table align="center">
+        <tr>
+          <th colspan="2">
+            <h1>
+              <font size="7" face="Georgia">
+                &nbsp;&nbsp;Reservation Form
+              </font>
+            </h1>
+          </th>
+        </tr>
+      </table>
+      <hr />
+      <fieldset>
+        <legend>Ticket</legend>
+        <table>
+          <tr>
+            <td>
+              <p>Schedule Date :</p>
+              <input type="date" name="date" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>From :</p>
+              <select name="city">
+                <option value="city" selected><font>--select--</font></option>
+                <option value="city">Rourkela</option>
+                <option value="city">Delhi</option>
+                <option value="city">Mumbai</option>
+                <option value="city">Ajmer</option>
+                <option value="city">Lucknow</option>
+                <option value="city">Kanpur</option>
+                <option value="city">Banaras</option>
+                <option value="city">Kolkata</option>
+                <option value="city">Hyderabad</option>
+                <option value="city">Chennai</option>
+              </select>
+            </td>
+            <td>
+              <p>To :</p>
+              <select name="city">
+                <option value="city" selected><font>--select--</font></option>
+                <option value="city">Rourkela</option>
+                <option value="city">Delhi</option>
+                <option value="city">Mumbai</option>
+                <option value="city">Ajmer</option>
+                <option value="city">Lucknow</option>
+                <option value="city">Kanpur</option>
+                <option value="city">Banaras</option>
+                <option value="city">Kolkata</option>
+                <option value="city">Hyderabad</option>
+                <option value="city">Chennai</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Personal Details :</legend>
+        <p>Name :</p>
+        <input
+          type="text"
+          name="fname"
+          placeholder="FirstName"
+          maxlength="99"
+        />
+        <input type="text" name="lname" placeholder="LastName" maxlength="99" />
+        <p>Age :</p>
+        <input
+          type="text"
+          name="age"
+          placeholder="Age"
+          size="10"
+          maxlength="99"
+        />
+        <p>Phone Number :</p>
+        <input
+          type="text"
+          name="phn-number"
+          placeholder="Phone Number"
+          maxlength="13"
+        />
+        <p>E-mail :</p>
+        <input
+          type="email"
+          name="email"
+          placeholder="abc@email.com"
+          size="47"
+        />
+        <p>Address :</p>
+        <input type="text" name="address" size="47" placeholder="Address" />
+        <p align="center">
+          <input type="submit" value="Book Ticket" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>

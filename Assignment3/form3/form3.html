@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Book a Room</title>
+    <style>
+      body{
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .container{
+        padding: 20px 12px;
+        width: 50%;
+        border-radius: 5%;
+        background-color: rgba(58, 8, 8, 0.557);
+        color: white;
+        margin-left: 25%;
+        box-shadow: 0px 0px 20px black;
+      }
+
+      input{
+        padding: 12px 15px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      h1{
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>
+          <font size="7" face="Georgia">
+            &nbsp;&nbsp;Mayfair Hotel
+          </font>
+        </h1>
+        <hr/>
+          <legend>Reservation Details</legend>
+            Full Name :
+            <input type="text" name="fname" size="30" placeholder="FirstName" />
+            <input type="text" name="lname" size="30" placeholder="LastName" />
+
+            <p>Address :</p>
+            <input type="text" name="address" size="60" placeholder="Street Address" />
+            <br /> <br />
+            <input type="text" name="address" size="60" placeholder="Street Address Line 2" />
+            <br /> <br />
+            <input type="text" name="City" size="40" placeholder="City" />
+            <br /> <br />
+            <input type="text" name="State" size="40" placeholder="State/Province" />
+            <br /><br />
+            <input type="number" name="Pincode" size="35" placeholder="Pincode" />
+
+            <p>Check-in Date :</p>
+            <input type="date" name="checkindate" placeholder="Check-in Date" />
+          
+            <p>Check-in Time :</p>
+            <input type="time" name="checkintime" placeholder="Check-in Time" />
+          
+            <p>Check-out Date :</p>
+            <input type="date" name="checkoutdate" placeholder="Check-out Date" />
+          
+            <p>Check-out Time :</p>
+            <input type="time" name="checkouttime" placeholder="Check-out Time" />
+              
+            <br>
+            <input type="radio" name="roomtype" /> Standard
+            <input type="radio" name="roomtype" /> Delux
+            <input type="radio" name="roomtype" /> Suite
+            <br><br>
+            <select name="adults">
+              <option value="adults">Adults</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+
+            &nbsp;
+            <select name="children">
+              <option value="children">Children</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+      </form>
+    </div>
+  </body>
+</html>

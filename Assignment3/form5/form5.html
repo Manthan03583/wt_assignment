@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Result</title>
+    <style>
+      h1{
+        font-family: "Georgia";
+        text-align: center;
+      }
+
+      #submit{
+        margin-left: 37%;
+        width: 25%;
+        padding: 12px 2px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 2px 2px silver;
+        box-sizing: border-box;
+        background-color: whitesmoke;
+        color: rgb(49, 150, 190);
+        font-weight: bold;  
+      }
+
+      .container{
+        margin-top: 8%;
+        margin-left: 55%;
+        border-radius: 5%;
+        width: 25%;
+        background-color: rgb(23, 144, 192);
+        padding: 2%;
+        box-shadow: 10px 10px 20px rgb(50, 149, 188);
+        color: white; 
+      }
+
+      input{
+        padding: 12px 15px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      body{
+        background-image: url("background.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>
+          Results
+        </h1>
+        <hr />
+          <p>
+              <br>
+            <font face="Arial"><b>Student Roll Number : </b></font>
+          </p>
+          <input
+            type="text"
+            name="roll-number"
+            maxlength="15"
+            size="50"
+            placeholder="Roll Number"
+          />
+          <p>
+            <br>
+            <font face="Arial"><b>Password : </b></font>
+          </p>
+          <input type="password" name="password" size="50" placeholder="Password">
+    
+          <p>
+              <br>
+            <input id="submit" type="submit" value="submit">
+          </p>
+      </form>
+    </div>
+  </body>
+</html>

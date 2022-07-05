@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+h1{
+    text-align: center;
+    text-decoration-color: white;
+}
+
+p{ 
+    /* text-indent: 0%; */
+    padding: 20px;
+    letter-spacing: 50%;
+}
+
+#profile_img{ 
+    padding: 20px;
+    border-radius: 50%;
+} 
+
+a { 
+    
+}
+
+font{
+    color: Black;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(white,red);
+    background-size: contain;
+}
+div{
+
+}
+

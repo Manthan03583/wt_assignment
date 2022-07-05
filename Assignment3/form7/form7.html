@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mobile Phone Balance</title>
+    <style>
+      body{
+        background-image: url("background.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <font size="7" face="Georgia"> Balance Info </font>
+      <br />
+      <hr />
+      <br />
+
+        <p>1. Enter your mobile number :</p>
+        <input type="text" maxlength="13" name="mobile-number" placeholder="Mobile Number"/>
+        
+        <p>2. Select your Option :</p>
+          <select name="info-options">
+            <option value="select">--select--</option>
+            <option value="option-menu">1. Balance</option>
+            <option value="option-menu">2. Validity</option>
+            <option value="option-menu">3. IMEI Number</option>
+            <option value="option-menu">4. Exit</option>
+          </select>
+  
+          <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

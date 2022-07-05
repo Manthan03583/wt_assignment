@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Railway Reservation</title>
+    <style>
+      #submit{
+        width: 30%;
+        padding: 12px 12px;
+        margin-top: 10%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 2px 2px silver;
+        box-sizing: border-box;
+        background-color: whitesmoke;
+        font-weight: 600;
+        background-color: red;
+        color: white; 
+      }
+
+      h1{
+         text-align: center;
+      }
+
+      body{
+         background-image: url("background.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+
+      .container{
+         background-color: rgba(43, 133, 218, 0.523);
+         width: 25%;
+         padding: 12px 12px;
+         border-radius: 5%;
+         margin-top: 5%;
+         margin-left: 15%;
+         box-shadow: 5px 5px 10px black;
+         color: white;
+      }
+
+      select{
+        padding: 12px 15px;
+        margin-left: 3%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      p{
+         margin-left: 4%;
+      }
+
+      input{
+        padding: 12px 15px;
+        margin-left: 3%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      #date{
+        width: 35%;
+      }
+
+   </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <font size="7" face="Georgia"> Vacancy </font>
+        <hr />
+        <font size="6">Check Availabilty</font>          
+          <p><font size="4">Train Number :</font></p>
+
+          <input type="text" name="Train-Number" placeholder="Train Number" 
+          maxlength="6" size="30" />
+
+          <p><font size="4">Journey Date :</font></p>
+          <input id="date" type="date" name="Jdate" />
+            <p><font size="4">From : </font></p>
+          
+            <select name="city">
+              <option value="city">--select</option>
+              <option value="city">Mumbai</option>
+              <option value="city">Delhi</option>
+              <option value="city">Kanpur</option>
+              <option value="city">Lucknow</option>
+              <option value="city">Jammu</option>
+              <option value="city">Bhubaneswar</option>
+              <option value="city">Rourkela</option>
+              <option value="city">Hyderabad</option>
+              <option value="city">Chennai</option>
+            </select>
+          
+            <p><font size="4">To : </font></p>
+            <select name="city">
+              <option value="city">--select</option>
+              <option value="city">Mumbai</option>
+              <option value="city">Delhi</option>
+              <option value="city">Kanpur</option>
+              <option value="city">Lucknow</option>
+              <option value="city">Jammu</option>
+              <option value="city">Bhubaneswar</option>
+              <option value="city">Rourkela</option>
+              <option value="city">Hyderabad</option>
+              <option value="city">Chennai</option>
+            </select>
+
+        <p align="center">
+            <input id="submit" type="submit" value="View Results">
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Admission</title>
+  </head>
+  <style>
+    
+    h1{
+      color: cadetblue;
+      margin-left: 10;
+    }
+
+    h2{
+      color: cadetblue;
+      margin-left: 60px;
+    }
+
+    body{
+      background-image: url("admission-banner.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 88.2vh;
+    }
+
+    input{
+      padding: 12px 15px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    textarea{
+      padding: 12px 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    #submit{
+      width: 25%;
+      padding: 12px 2px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 2px 2px silver;
+      box-sizing: border-box;
+      background-color: cadetblue;
+      color: white;      
+    }
+
+    .form {
+      margin-top: 5%;
+      margin-left: 3%;
+      box-shadow: 20px 20px 15px gray;
+      width: 25%;
+      white-space: nowrap;
+      border-radius: 5px;
+      padding: 2%;
+      background-color: whitesmoke;
+    }
+
+  </style>
+  <body>
+      <div class="form">
+        <form>
+          <h1>Application For Admission</h1>
+          <hr>
+          <h2>University of Singapore</h2>
+  
+          <label for="name">Name :</label>&nbsp;<br>
+          <input type="text" id="name" size="45"/> <br>
+          
+          <label for="address">Address :</label> &nbsp;<br>
+          <textarea name="address" id="address" cols="43" rows="5"></textarea> <br>
+          
+          <label for="number">Credit Card Number :</label><br>
+          <input type="text" id="number" name="credit-card-number" size="45" /> <br>
+              
+          <input id="submit" type="submit" value="Submit">
+        </form>
+      </div>
+  </body>
+</html>

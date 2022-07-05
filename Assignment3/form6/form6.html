@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Fare</title>
+   <style>
+      #submit{
+         margin-left: 35%;
+        width: 30%;
+        padding: 12px 12px;
+        margin-top: 10%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 2px 2px silver;
+        box-sizing: border-box;
+        background-color: whitesmoke;
+        font-weight: 600;
+        background-color: red;
+        color: white; 
+      }
+
+      h1{
+         text-align: center;
+      }
+
+      body{
+         background-image: url("background.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+
+      .container{
+         background-color: rgba(43, 133, 218, 0.523);
+         width: 25%;
+         padding: 12px 12px;
+         border-radius: 5%;
+         margin-top: 10%;
+         margin-left: 15%;
+         box-shadow: 5px 5px 10px black;
+         color: white;
+      }
+
+      select{
+        padding: 12px 15px;
+        margin: 0px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      p{
+         margin-left: 4%;
+      }
+
+   </style>
+</head>
+<body>
+   <form>
+      <div class="container">
+         <h1>
+            Ticket Fare
+         </h1>
+          <hr />
+         <p>From :
+      
+         <select name="city">
+            <option value="city">--select</option>
+            <option value="city">Mumbai</option>
+            <option value="city">Delhi</option>
+            <option value="city">Kanpur</option>
+            <option value="city">Lucknow</option>
+            <option value="city">Jammu</option>
+            <option value="city">Bhubaneswar</option>
+            <option value="city">Rourkela</option>
+            <option value="city">Hyderabad</option>
+            <option value="city">Chennai</option>
+         </select>
+      </p>
+         <p>To :
+            &nbsp;&nbsp;&nbsp;
+         <select name="city">
+            <option value="city">--select</option>
+            <option value="city">Mumbai</option>
+            <option value="city">Delhi</option>
+            <option value="city">Kanpur</option>
+            <option value="city">Lucknow</option>
+            <option value="city">Jammu</option>
+            <option value="city">Bhubaneswar</option>
+            <option value="city">Rourkela</option>
+            <option value="city">Hyderabad</option>
+            <option value="city">Chennai</option>
+         </select>
+      </p>
+         <br>
+         <input id="submit" type="submit" value="Show Fare">
+      </div>
+   </form>
+</body>
+</html>

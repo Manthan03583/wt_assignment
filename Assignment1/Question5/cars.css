@@ -1,0 +1,26 @@
+body{
+    /* background:
+        /* url("") left bottom no-repeat
+        url("57-574997_m.jpg") right top no-repeat */
+        /* url("se-image-4f184c23efa88db18d6ef1f68249f4bd.jpg"); */ 
+
+    /* background-repeat: no-repeat;
+    background-position: 500px 520px; */
+    background-color: green;
+}
+#background{
+    color: white;
+    /* opacity: 50%; */
+}
+
+#Toyota{
+    list-style-type: square;
+    list-style-image: url("download.jpg");
+}
+#Volkswagen{
+    list-style-type: circle;
+
+}
+#Maruti_Suzuki{
+    list-style-type: square;
+}
