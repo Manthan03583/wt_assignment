@@ -2,113 +2,113 @@
 <html lang="en">
   <head>
     <title>Insurance</title>
+    <style>
+      .container{
+        width: 35%;
+        background-color: whitesmoke  ;
+        border-radius: 5%;
+        padding: 30px 30px
+        
+      }
+
+      input{
+        padding: 12px 15px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+
+      }
+
+    </style>
   </head>
   <body>
-    <table align="center">
-      <tr>
-        <th colspan="2">
-            <font size="7" face="Georgia"> Update Info </font>
-        </th>
-      </tr>
-    </table>
-    <hr />
-    <form>
-      <fieldset>
-        <legend><font size="5">Personal Info</font></legend>
-        <table cellpadding="10" cellspaing="10">
-          <tr>
-            <td>
-              <p>Full Name :</p>
-              <input
-                type="text"
-                name="fname"
-                size="30"
-                placeholder="FirstName"
-              />
-              <input
-                type="text"
-                name="lname"
-                size="30"
-                placeholder="LastName"
-              />
-            </td>
-          </tr>
-          <tr>
-             <td>
-               <p>Customer ID : </p>
-               <input
-                type="text"
-                name="Customer-ID"
-                size="30"
-                maxlength="15"
-                placeholder="Customer ID"
-              />
-             </td>
-             <td>
-               <p>Insurance ID : </p>
-               <input
-                type="text"
-                name="Insurance-ID"
-                size="30"
-                maxlength="12"
-                placeholder="Insurance ID"
-              />
-             </td>
-          </tr>
-          <tr>
-             <td>
-               <p>Insurance Number : </p>
-               <input
-                type="text"
-                name="Insurance-Number"
-                size="30"
-                maxlength="10"
-                placeholder="Insurance Number"
-              />
-             </td>
-          </tr>
-          <tr>
-            <td>
-              <p>Address :</p>
-              <input
-                type="text"
-                name="Address"
-                size="60"
-                placeholder="Street Address"
-              />
-              <br />
-              <br />
-              <input
-                type="text"
-                name="Address"
-                size="60"
-                placeholder="Street Address Line 2"
-              />
-              <br />
-              <br />
-              <input type="text" name="City" size="40" placeholder="City" />
-              <br />
-              <br />
-              <input
-                type="text"
-                name="State"
-                size="40"
-                placeholder="State/Province"
-              />
-              <br /><br />
-              <input
-                type="number"
-                name="Pincode"
-                size="35"
-                placeholder="Pincode"
-              />
-            </td>
-          </tr>
-        </table>
-        <p align="center">
-           <input type="submit" value="Update">
-        </p>
-      </fieldset>
-    </form>
+    <div class="container">
+      <p>
+        <font size="7"> Update Info </font>
+      </p>
+      <hr />
+      <form>
+        <font size="5">Personal Info</font>
+                <p>Full Name :</p>
+                <input
+                  type="text"
+                  name="fname"
+                  size="30"
+                  placeholder="FirstName"
+                />
+                <input
+                  type="text"
+                  name="lname"
+                  size="30"
+                  placeholder="LastName"
+                />
+              
+                <p>Customer ID : </p>
+                <input
+                  type="text"
+                  name="Customer-ID"
+                  size="30"
+                  maxlength="15"
+                  placeholder="Customer ID"
+                />
+              
+                <p>Insurance ID : </p>
+                <input
+                  type="text"
+                  name="Insurance-ID"
+                  size="30"
+                  maxlength="12"
+                  placeholder="Insurance ID"
+                />
+              
+                <p>Insurance Number : </p>
+                <input
+                  type="text"
+                  name="Insurance-Number"
+                  size="30"
+                  maxlength="10"
+                  placeholder="Insurance Number"
+                />
+              
+                <p>Address :</p>
+                <input
+                  type="text"
+                  name="Address"
+                  size="60"
+                  placeholder="Street Address"
+                />
+                <br />
+                <br />
+                <input
+                  type="text"
+                  name="Address"
+                  size="60"
+                  placeholder="Street Address Line 2"
+                />
+                <br />
+                <br />
+                <input type="text" name="City" size="40" placeholder="City" />
+                <br />
+                <br />
+                <input
+                  type="text"
+                  name="State"
+                  size="40"
+                  placeholder="State/Province"
+                />
+                <br /><br />
+                <input
+                  type="number"
+                  name="Pincode"
+                  size="35"
+                  placeholder="Pincode"
+                />
+          <p align="center">
+            <input type="submit" value="Update">
+          </p>
+        
+      </form>
+    </div>
   </body>
 </html>
