@@ -1,6 +1,6 @@
 function getConfirmation(){
     var retval = confirm("Do you want to continue");
-    if(retval == true){
+    if(retval){
         document.write("Users want to continue");
     }
     else{

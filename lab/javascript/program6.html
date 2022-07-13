@@ -1,0 +1,42 @@
+
+<html>
+</head> 
+<head>
+<body>
+    <script> 
+    function validate(){
+        var user= document.form1.name1.value;
+        var password=document.form1.password.value;
+        if(user=""){
+            alert("blank username");
+            document.formi.namel.style.borderColor="red";
+            return false;
+        }
+        else if(password=="")
+        {
+            alert("blank password");
+            document.form1.password.style.borderColor="red";
+            return false;
+        }
+        else if(password.length()<=5){
+            alert("password too short");
+            document.form1.password.style.borderColor="red";
+            return false;
+        }
+        else{
+            return true;
+        }
+        
+    }
+
+    </script>
+
+    <form name-form1 onsubmit="return validate()" action="second.html"> 
+        enter name<input type="text" name="name1">
+        enter password<input type="password" name="password">
+        <input type="submit" value="click me">
+        <input type="reset" value="reset">
+    </form> 
+</body>
+</html>
+Page 1
