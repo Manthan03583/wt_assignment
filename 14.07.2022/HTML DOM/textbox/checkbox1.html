@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Hello</title>
+    <script>
+        function validate() {
+            var txt = ""
+            var x1 = document.getElementById("first");
+            var x2 = document.getElementById("second");
+            if ((x1.checked == true) && (x2.checked == true)) {
+                document.write("hello");
+                document.getElementById("third").value = (x1.value) + (x2.value);
+            }
+            if (x1.checked == true) {
+                txt = x1.value;
+                document.getElementById("third").value = txt;
+            }
+            if (x2.checked == true) {
+                txt = x2.value;
+                document.getElementById("third").value = txt;
+            }
+
+
+        }
+    </script>
+</head>
+
+<body>
+    <input id="first" type="checkbox" value="cpu" name="compare">cpu</input>
+    <input id="second" type="checkbox" value="ram" name="compare">ram</input>
+    <input id="third" type="text">
+    <input type="button" onclick="validate()" value="submit">
+</body>
+
+</html>

@@ -102,18 +102,15 @@ function validateUser(){
 
 function validatePassword(){
     var user = document.ageform.password.value;
-    if(user){
-        if(user.length < 6){
-            alert("password should be greater than 6 charecter");
-            return false;
-        }
+    var exp = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+    if(user.test(exp)){
+        alert("Strong Password");
     }
     else if(user==""){
             alert("password should not be empty");
-            return false;
     }
     else{
-        return true;
+        alert("weak password");
     }
 }
 
