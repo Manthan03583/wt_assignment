@@ -8,14 +8,15 @@
             var x1 = document.getElementById("first");
             var x2 = document.getElementById("second");
             if ((x1.checked == true) && (x2.checked == true)) {
-                document.write("hello");
-                document.getElementById("third").value = (x1.value) + (x2.value);
+                //document.write("hello");
+                txt = x1.value + x2.value
+                document.getElementById("third").value = txt;
             }
-            if (x1.checked == true) {
+            else if (x1.checked == true) {
                 txt = x1.value;
                 document.getElementById("third").value = txt;
             }
-            if (x2.checked == true) {
+            else if (x2.checked == true) {
                 txt = x2.value;
                 document.getElementById("third").value = txt;
             }

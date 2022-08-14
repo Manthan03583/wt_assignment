@@ -17,11 +17,15 @@ class Car {
   }
 }
 
+class model extends Car{
+  
+}
+
 
 let myCar = new Car("Ford");
 
 //You can call 'hello()' on the Car Class:
-document.getElementById("demo").innerHTML = Car.hello();
+document.getElementById("demo").innerHTML = model.hello();
 
 // But NOT on  a Car Object:
 //document.getElementById("demo").innerHTML = myCar.hello();
